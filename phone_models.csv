@@ -1,0 +1,28 @@
+model,name,h_px,w_px,d_in
+iphone16promax,iPhone 16 Pro Max,2796,1290,6.86
+iphone16pro,iPhone 16 Pro,2556,1179,6.27
+iphone16plus,iPhone 16 Plus,2796,1290,6.69
+iphone16,iPhone 16,2556,1179,6.12
+iphone15promax,iPhone 15 Pro Max,2796,1290,6.69
+iphone15pro,iPhone 15 Pro,2556,1179,6.12
+iphone15plus,iPhone 15 Plus,2796,1290,6.69
+iphone15,iPhone 15,2556,1179,6.12
+iphone14promax,iPhone 14 Pro Max,2796,1290,6.69
+iphone14pro,iPhone 14 Pro,2556,1179,6.12
+iphone14plus,iPhone 14 Plus,2778,1284,6.68
+iphone14,iPhone 14,2532,1170,6.06
+iphone13promax,iPhone 13 Pro Max,2778,1284,6.68
+iphone13pro,iPhone 13 Pro,2532,1170,6.06
+iphone13,iPhone 13,2532,1170,6.06
+iphone13mini,iPhone 13 mini,2340,1080,5.42
+iphone12promax,iPhone 12 Pro Max,2778,1284,6.68
+iphone12pro,iPhone 12 Pro,2532,1170,6.06
+iphone12,iPhone 12,2532,1170,6.06
+iphone12mini,iPhone 12 mini,2340,1080,5.42
+iphone11promax,iPhone 11 Pro Max,2688,1242,6.46
+iphone11pro,iPhone 11 Pro,2436,1125,5.85
+iphone11,iPhone 11,1792,828,6.06
+iphonexsmax,iPhone XS Max,2688,1242,6.46
+iphonexs,iPhone XS,2436,1125,5.85
+iphonex,iPhone X,2436,1125,5.85
+iphonexr,iPhone XR,1792,828,6.06
