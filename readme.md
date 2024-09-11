@@ -4,8 +4,8 @@
 
 This project generates ruler images for various phone models, allowing you to use your phone as a quick and convenient ruler without the need for a separate app.
 
-<img src="generated_images/Ruler_iphone16pro_metric.png" alt="Example Ruler Image" width="300">
-<img src="cartoon.png" alt="Example usage" width="139">
+<img src="generated_images/Ruler_iphone15_metric.png" alt="Example Ruler Image" width="300">
+<img src="cartoon.webp" alt="Example usage" width="139">
 
 </div>
 

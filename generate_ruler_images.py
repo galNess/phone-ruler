@@ -35,7 +35,7 @@ def draw_metric_ruler(img, start_y, direction, text_y, params, white, px_per_mm)
     for i in range(int(params['h_mm']) + 1):
         x = int(i * px_per_mm)
         if i % 10 == 0:  # Major tick (cm)
-            cv2.line(img, (x, start_y), (x, start_y + direction * 80), white, 7)
+            cv2.line(img, (x, start_y), (x, start_y + direction * (80 + 200 * int(i == 0))), white, 7)
             cv2.putText(img, f"{i // 10}", (x - 32 * (i // 100 + 1), text_y),
                         cv2.FONT_HERSHEY_SIMPLEX, 3, white, 3)
         elif i % 5 == 0:  # Intermediate tick (5mm)
@@ -49,7 +49,7 @@ def draw_imperial_ruler(img, start_y, direction, text_y, params, white, px_per_i
     for i in range(int(inches * 8) + 1):
         x = int(i * px_per_inch / 8)
         if i % 8 == 0:  # Major tick (1 inch)
-            cv2.line(img, (x, start_y), (x, start_y + direction * 80), white, 7)
+            cv2.line(img, (x, start_y), (x, start_y + direction * (80 + 200 * int(i == 0))), white, 7)
             cv2.putText(img, f"{i // 8}", (x - 32 * (i // 64 + 1), text_y),
                         cv2.FONT_HERSHEY_SIMPLEX, 3, white, 3)
         elif i % 4 == 0:  # 1/2 inch
